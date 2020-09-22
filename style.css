@@ -38,38 +38,3 @@ input {
 input:checked {
     box-shadow: inset 6px 6px 12px #434343, inset -6px -6px 12px #5b5b5b;
 }
-
-input::before {
-    font-family: "Font Awosome 5 Free";
-    font-weight: 900;
-    font-size: 1.8rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #757575;
-}
-
-input:checked::before {
-    color: #fafa37;
-}
-
-input:nth-child(2)::before {
-    content: '\f028';
-}
-
-input:nth-child(3)::before {
-    content: '\f186';
-}
-
-input:nth-child(4)::before {
-    content: '\f042';
-}
-
-input:nth-child(5)::before {
-    content: '\f011';
-}
-
-input:nth-child(6)::before {
-    content: '\f027';
-}
